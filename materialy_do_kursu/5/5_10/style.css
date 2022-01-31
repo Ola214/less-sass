@@ -1,0 +1,21 @@
+body {
+  font-family: "Arial", sans-serif;
+  padding: 0 50px;
+  color: #333; }
+
+h1, h2 {
+  font-weight: 400; }
+
+p a {
+  color: #a6a6a6;
+  text-decoration: none; }
+  p a:hover {
+    text-decoration: underline; }
+
+.bottom {
+  border-bottom: 1px solid #CCC; }
+  .bottom p {
+    font-style: italic;
+    color: #1a1a1a; }
+
+/*# sourceMappingURL=style.css.map */

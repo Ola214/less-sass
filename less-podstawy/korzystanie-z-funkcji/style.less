@@ -1,0 +1,24 @@
+@bg-color: #0b3861;
+
+div {
+    margin-left: 50px;
+    width: 500px;
+    height: 100px;
+    background-color: @bg-color;
+}
+
+.first {
+    background-color: desaturate(@bg-color, 30%);
+}
+
+.second {
+    background-color: lighten(@bg-color, 10%);
+}
+
+.third {
+    background-color: fade(@bg-color, 50%);
+}
+
+.fourth {
+    background-color: darken(@bg-color, 13%);
+}

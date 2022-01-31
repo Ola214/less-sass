@@ -1,0 +1,164 @@
+// siatka kolumn
+@columns: 12;
+@column-width: 65;
+@gutter-width: 30;
+@total-width: 100%;
+
+.our-services .single-col {
+	.column(12);
+	@media @tablet {
+		.column(3);
+	}
+}
+
+.advantages .single-col {
+	.column(12);
+	@media @tablet {
+		.column(4);
+	}
+}
+
+.statistics .single-col {
+	.column(12);
+	@media @phone {
+		.column(6);
+	}
+	@media @tablet {
+		.column(3);
+	}
+}
+
+.our-team .single-col {
+	.column(12);
+	@media @tablet {
+		.column(4);
+	}
+}
+
+.footer-main .single-col {
+	.column(12);
+	@media @phone {
+		.column(6);
+	}
+	@media @tablet {
+		.column(3);
+	}
+}
+
+// kontener
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	clear: both;
+	padding: 0 15px;
+}
+
+// Inne elementy
+img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+a {
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+// tytuly sekcji
+.section-title {
+	margin-bottom: 40px;
+	.center-text;
+}
+
+// Naglowki
+h1, h2 , h3 {
+	line-height: 1.1;
+} 
+
+// mixin dla przyciskow
+.basic-button(@color;@background-color) {
+	color: @color;
+	background-color: @background-color;
+	text-decoration: none;
+	.inline-block;
+	font-size: @basic-font-size;
+	font-weight: 400;
+	line-height: @basic-line-height;
+	text-transform: uppercase;
+}
+
+/***  Naglowek ***/
+header {
+	z-index: 1000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: @basic-background;
+	border-bottom: 1px solid @basic-border-color;
+	box-shadow: 0 0 1px @basic-border-color;
+	.navbar {
+		height: 63px;
+			.nav-logo {
+			.float-left;
+			.center-vertical;
+			z-index: 2;
+		}
+	}
+}
+
+// ukrywa menu główne
+#main-menu {
+	.invisible;
+	@media @phone {
+		.block;
+	}
+}
+
+.main-menu-content {
+	.float-right;
+	.center-vertical;
+	ul {
+		.list-style-none;
+		li {
+			.float-left;
+			.block;
+			a {
+				color: @menu-link-color;
+				font-size: 15px;
+				font-family: @font-family-secondary;
+				font-weight: 400;
+				padding: 20px 14px;
+				line-height: 20px;
+				.basic-transition;
+				&:hover {
+					color: @accent-color;
+				}
+				@media @tablet {
+					padding: 20px 22px;
+				}
+			}
+			i {
+				font-size: 14px;
+			}
+		}
+	}
+}
+
+//menu mobilne
+.slicknav_menu {
+	position: fixed;
+	left: 0;
+	right: 0;
+	@media @phone {
+		.invisible;
+	}
+}
+
+
+
+
+

@@ -1,0 +1,59 @@
+LESS - oficjalna strona
+http://lesscss.org/
+
+WinLess
+http://winless.org/
+
+Crunch (kompilator plus edytor)
+http://crunchapp.net/
+
+Edytor Sublime Text
+http://www.sublimetext.com/
+
+Modu³ kontroli pakietów (dodatek do Sublime Text)
+https://packagecontrol.io/installation
+
+SASS - oficjalna strona
+http://sass-lang.com
+
+Koala - kompilacja SASS
+http://koala-app.com/
+
+SASS - opis funkcji do pracy z kolorem
+http://jackiebalzer.com/color
+
+Font Awesome
+http://fontawesome.io/
+
+Przyk³adowy reset dla less
+https://gist.github.com/joshuapowell/1680540
+
+Semantic Grid System (siatka kolumn)
+http://semantic.gs/
+
+jQuery
+http://jquery.com
+
+Slicknav (plugin menu mobilnego)
+http://slicknav.com/
+
+bxSlider (g³ówny slider na stronie)
+http://bxslider.com/
+
+Images loaded
+https://github.com/desandro/imagesloaded
+
+Owl Carousel (Slider dla portfolio) 
+http://owlgraphic.com/owlcarousel/
+
+jQuery countTo (plugin odliczania)
+https://github.com/mhuggins/jquery-countTo
+
+Animate CSS
+http://daneden.github.io/animate.css/
+
+Viewport Checker
+https://github.com/dirkgroenen/jQuery-viewport-checker
+
+YTPlayer
+https://github.com/pupunzi/jquery.mb.YTPlayer

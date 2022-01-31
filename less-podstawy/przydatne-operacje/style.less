@@ -1,0 +1,19 @@
+@width: 100px;
+
+div {
+    height: 120px;
+    background-color: #f00;
+}
+
+.first {
+    width: @width;
+}
+
+.second {
+    width: 2*@width;
+    background-color: (#00f + #f00)/2;
+}
+
+.third {
+    width: 3*@width;
+}

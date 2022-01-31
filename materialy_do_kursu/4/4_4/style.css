@@ -1,0 +1,14 @@
+body {
+  font-family: 'Arial', sans-serif;
+  padding-left: 50px; }
+
+h1 {
+  width: 35%;
+  border: 1px solid #888; }
+
+.content {
+  width: 55%;
+  padding: 40px;
+  border: 1px solid #888; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,13 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+  font-weight: 400;
+}
+
+p {
+  colors: #00f;
+  /*indeksowanie od 1 nie 0*/
+}
+/*# sourceMappingURL=style.css.map */

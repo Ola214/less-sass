@@ -1,0 +1,16 @@
+body {
+  font-family: 'Arial', sans-serif;
+  padding: 0 50px; }
+
+h1, h2 {
+  font-weight: 400; }
+
+.social-block {
+  margin-top: 50px; }
+  .social-block span {
+    display: inline-block;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px; }
+
+/*# sourceMappingURL=style.css.map */

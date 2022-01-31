@@ -1,0 +1,55 @@
+body {
+  font-family: 'Arial', sans-serif;
+  padding: 0 50px;
+}
+
+body .block-1 {
+  background: #0c5064;
+}
+
+body .block-2 {
+  background: #0c5368;
+}
+
+body .block-3 {
+  background: #0d576d;
+}
+
+body .block-4 {
+  background: #0d5b71;
+}
+
+body .block-5 {
+  background: #0e5e76;
+}
+
+body .block-6 {
+  background: #0e627a;
+}
+
+body .block-7 {
+  background: #0f667f;
+}
+
+body .block-8 {
+  background: #0f6984;
+}
+
+body .block-9 {
+  background: #106d88;
+}
+
+body .block-10 {
+  background: #10718d;
+}
+
+h1, h2 {
+  font-weight: 400;
+}
+
+div {
+  width: 50%;
+  height: 50px;
+  background: #0B4C5F;
+}
+/*# sourceMappingURL=style.css.map */

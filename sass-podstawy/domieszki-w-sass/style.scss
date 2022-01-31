@@ -1,0 +1,13 @@
+@mixin fonts {
+    font-family: 'Arial', sans-serif;
+}
+
+@mixin headers {
+    font-weight: 400;
+    color: #999;
+    @include fonts;
+}
+
+h1, h2 {
+    @include headers;
+}

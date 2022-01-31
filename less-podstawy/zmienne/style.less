@@ -1,0 +1,19 @@
+@color: #fa8258;
+@header-size: 30px;
+@padding: 20px 30px 30px 25px;
+@border: 1px solid @color;
+@text: "To jest tekst";
+
+h1 {
+    color: @color;
+    font-size: @header-size;
+}
+
+div {
+    background-color: @color;
+    padding: @padding;
+}
+
+p:after {
+    content: @text;
+}

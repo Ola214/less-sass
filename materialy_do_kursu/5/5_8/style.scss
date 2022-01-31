@@ -1,0 +1,19 @@
+$bg-color: #0B4C5F;
+
+body {
+	font-family: 'Arial', sans-serif;
+	padding: 0 50px;
+}
+
+h1, h2 {
+	font-weight: 400;
+}
+
+div {
+	width: 50%;
+	height: 50px;
+	background: $bg-color;
+}
+
+
+

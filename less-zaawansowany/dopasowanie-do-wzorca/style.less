@@ -1,0 +1,28 @@
+@butto-type: dark;
+
+.button(dark) {
+    padding: 12px 22px;
+    border: none;
+    background-color: #222;
+    color: #ccc;
+}
+
+.button(light) {
+    padding: 12px 22px;
+    border: none;
+    background-color: #ccc;
+    color: #222;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+    font-weight: 400;
+}
+
+button {
+    /*.button(dark);*/
+    .button(@button-type);
+}
